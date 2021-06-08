@@ -1,0 +1,172 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu&display=swap");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 1.5;
+  color: lightskyblue;
+}
+
+h1 {
+  font-size: 55px;
+}
+
+h2 {
+  font-size: 45px;
+}
+
+h1,
+h2 {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: palegoldenrod;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.nav_menu {
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: flex;
+  justify-content: flex-end;
+  background-color: maroon;
+  z-index: 20;
+}
+
+.nav-items {
+  display: flex;
+  margin-right: 15px;
+}
+
+.nav-items a {
+  display: block;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.nav-items a:hover {
+  background: indigo;
+}
+
+.intro-sect {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(1, 9, 17, 0.87);
+}
+
+.intro-sect > p {
+  font-size: 30px;
+  font-weight: 200;
+  font-style: italic;
+  color: maroon;
+}
+
+.pr_section {
+  text-align: center;
+  padding: 100px 20px;
+  background-color: indigo;
+}
+
+.pr_grid {
+  width: 90%;
+  display: grid;
+  grid-auto-rows: 60vh;
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 50px;
+  margin: 60px auto 60px auto;
+}
+
+.project_tile {
+  background-color: rgba(1, 9, 17, 0.418);
+}
+
+.project_tile:hover {
+  color: maroon;
+}
+
+.pr-img {
+  width: 100%;
+  height: 82%;
+  object-fit: cover;
+}
+
+.pr_name {
+  padding: 25px 5px;
+  font-size: 25px;
+}
+
+.btn_box {
+  display: inline-block;
+  padding: 10px 20px;
+}
+.btn_txt {
+  font-size: 20px;
+  background-color: rgba(1, 9, 17, 0.418);
+}
+.btn_txt:hover {
+  background-color: maroon;
+}
+
+.contacts {
+  width: 100%;
+  height: 77vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgba(1, 9, 17, 0.87);
+  text-align: center;
+}
+
+.contact-txt > h2 {
+  font-size: 60px;
+}
+
+.contact-txt > p {
+  font-style: italic;
+}
+
+.links_grid {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  background: gray;
+  border-top: 4px solid maroon;
+  font-weight: 300;
+}
+
+footer > p {
+  margin: 2rem;
+}
